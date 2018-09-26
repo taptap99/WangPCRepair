@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WpfBrowserApp1.exe" version="1.0.0.6" publicKeyToken="5cbdeee4ab99e159" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WpfBrowserApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WpfBrowserApp1.exe" parameters="" />
+    <hostInBrowser xmlns="urn:schemas-microsoft-com:asm.v3" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site">
+          <IPermission class="System.Security.Permissions.FileDialogPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Access="Open" />
+          <IPermission class="System.Security.Permissions.IsolatedStorageFilePermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Allowed="ApplicationIsolationByUser" UserQuota="512000" />
+          <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="Execution" />
+          <IPermission class="System.Security.Permissions.UIPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Window="SafeTopLevelWindows" Clipboard="OwnClipboard" />
+          <IPermission class="System.Drawing.Printing.PrintingPermission, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" version="1" Level="SafePrinting" />
+          <IPermission class="System.Security.Permissions.MediaPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" version="1" Audio="SafeAudio" Video="SafeVideo" Image="SafeImage" />
+          <IPermission class="System.Security.Permissions.WebBrowserPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" version="1" Level="Safe" />
+        </PermissionSet>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfBrowserApp1.exe" size="12200">
+      <assemblyIdentity name="WpfBrowserApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZawU6SFpxlKVnLI6X6LNYCuSso4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=WANGPCORIGIN\Wang" issuerKeyHash="9259cccb807d3d11287c610ecea3d6af352e47f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+QmnYpzT21VszrGG0jJ07wz48C0=</DigestValue></Reference></SignedInfo><SignatureValue>KeBdUZjVP5/SgCRNp6WSLTPYpX2tVJ7Jfqocp4c9cpjLy6PLebKbHDsFRsGeRKJp+Z/1/3oVeCBYyYUAnA/62pwcoDhHSX4xqRydJvAf4M5KCJh3rBTw1dZ7n0fdEpCkDqF6vciBxypRWfFAdtHuDUWe8jp+pdIaqZr1stI+xZY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oA5IRpfCAwj2kGe9iuBb6hkdD4D2V5ENEKasL4jxDo37Uw9I3UwhTUqyVNztQS5yN4lXazp+NSsv4MQVDdfoXHCcmeSudmVWZ0Khg+esfitmAdk9UZLf2TWc88vVjLNt8V2xm28xrFlxgzqM6IbJi4JJLcbbSZrpWCNB7NWOUFE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2df0f80cef7432d286b1ce6c55dbd39c62a709f9" Description="" Url=""><as:assemblyIdentity name="WpfBrowserApp1.exe" version="1.0.0.6" publicKeyToken="5cbdeee4ab99e159" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WANGPCORIGIN\Wang</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2ca3TWuYOBE+k03u/1E3aoV8BI8=</DigestValue></Reference></SignedInfo><SignatureValue>hGf1KDftdcWEoMOxU24nENmD6bBg88H/2Y5WZj+BAxwP9xyVI1cqx7TrExnLmNzLl6Rnymi+h+Tu0ebMnl2yL04ebfFWYIa1yJPKrODZZIX9FTtERe2J5mGSsZ9XQNNenl2ZdivpXTbBMP3Rx3hj8y/QtR+/9PELrlljFMsLGhE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oA5IRpfCAwj2kGe9iuBb6hkdD4D2V5ENEKasL4jxDo37Uw9I3UwhTUqyVNztQS5yN4lXazp+NSsv4MQVDdfoXHCcmeSudmVWZ0Khg+esfitmAdk9UZLf2TWc88vVjLNt8V2xm28xrFlxgzqM6IbJi4JJLcbbSZrpWCNB7NWOUFE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQQGwilrDT4J5MEyY2YWaY/TANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIAVwBBAE4ARwBQAEMATwBSAEkARwBJAE4AXABXAGEAbgBnMB4XDTE4MDkyNTIwNTA1MloXDTE5MDkyNjAyNTA1MlowLTErMCkGA1UEAx4iAFcAQQBOAEcAUABDAE8AUgBJAEcASQBOAFwAVwBhAG4AZzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoA5IRpfCAwj2kGe9iuBb6hkdD4D2V5ENEKasL4jxDo37Uw9I3UwhTUqyVNztQS5yN4lXazp+NSsv4MQVDdfoXHCcmeSudmVWZ0Khg+esfitmAdk9UZLf2TWc88vVjLNt8V2xm28xrFlxgzqM6IbJi4JJLcbbSZrpWCNB7NWOUFECAwEAATANBgkqhkiG9w0BAQUFAAOBgQAlb0EkjedJRfQcXDANQRfG0xPYKUrM9BDx3j1ihTz26QIl8Hihp3tgQuC5vBrXIfS9jje5A6J4/waKs2x22CLLspAQn5qLCIraT21tDkXDL44ONTgW8K7GV5XlXZ056UHBv8ONswfMfsMIpSSIpJTdmjvUwA4+CfUcNE6y4szJxQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
